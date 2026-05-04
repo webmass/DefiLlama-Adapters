@@ -41,7 +41,6 @@ async function tvl(api) {
 }
 
 module.exports = {
-  doublecounted: true,
   methodology: 'TVL is the sum of the collateral deposits in each Monolith Market lender priced using the onchain oracle price and the value of the PSMs asset reserves if any.',
   ethereum: { tvl },
 }
